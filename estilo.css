@@ -1,0 +1,82 @@
+/* BODY */
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+/* CABECERA */
+header {
+  background-color: #673ab7;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+header img {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  height: 60px;
+}
+
+/* EQUIPO (contenedor) */
+.equipo {
+  display: inline-block;
+  background-color: white;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 200px;
+}
+
+/* FUNDACIÓN */
+.fundacion {
+  font-size: 14px;
+  margin: 10px 0;
+  color: #666;
+}
+
+/* NOMBRE DEL EQUIPO */
+.nombre-equipo {
+  margin: 10px 0;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+/* IMAGEN DEL EQUIPO */
+.equipo img {
+  height: 120px;
+}
+
+/* ESTADIO */
+.estadio {
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+/* COMPETICIONES */
+.competiciones img {
+  height: 50px;
+  margin: 5px;
+}
+
+/* BOTÓN */
+button {
+  background-color: #673ab7;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5a2ea6;
+}

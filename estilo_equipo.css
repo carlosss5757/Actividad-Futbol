@@ -1,0 +1,49 @@
+/* Body: Tipo de letra Lato */
+body {
+    font-family: 'Lato', sans-serif; 
+}
+
+/* Nombre del equipo y Entrenador: 
+   Estilos sugeridos para asemejar al ejemplo (personalizables) */
+.nombre-equipo {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px; 
+}
+
+.entrenador {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px; 
+}
+
+/* Imagen del equipo: Posicionada al centro exacto */
+.imagen-equipo {
+    position: relative; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    display: block; /* Para asegurar que el desplazamiento funcione correctamente */
+}
+
+/* Tabla de jugadores: Configuración de bordes y centrado */
+table {
+    border-collapse: collapse; 
+    position: relative; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+/* Celdas de cabecera: Color de fondo y estilos */
+th {
+    background-color: #f2f2f2; /* Ejemplo de color de fondo */ 
+    font-weight: bold; 
+}
+
+/* Celdas de cabecera y celdas normales: 
+   Borde, relleno (padding) y texto centrado */
+th, td {
+    border: 1px solid black; 
+    padding: 10px; 
+    text-align: center; 
+}
